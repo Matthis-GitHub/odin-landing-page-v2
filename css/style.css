@@ -1,8 +1,87 @@
 html {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+a,
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero p {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+.hero button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+}
+
+.header {
+  padding-top: 16px;
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color: #1f2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.header .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .links {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header .hero-container {
+  display: flex;
+  padding: 100px 0;
+}
+
+.hero {
+  flex: 1;
+}
+
+.hero-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin: 0;
 }
