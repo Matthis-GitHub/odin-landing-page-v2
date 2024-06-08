@@ -34,12 +34,18 @@ a {
   border: none;
   border-radius: 8px;
   padding: 8px 24px;
+  font-weight: bold;
+}
+
+.header,
+.info,
+.quote {
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 .header {
   padding-top: 16px;
-  padding-right: 15%;
-  padding-left: 15%;
   background-color: #1f2937;
 }
 
@@ -84,4 +90,93 @@ a {
   font-weight: bolder;
   color: #f9faf8;
   margin: 0;
+}
+
+/* Info Section */
+
+.info {
+  padding-bottom: 128px;
+  text-align: center;
+}
+
+.info-title {
+  margin: 64px 0;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info-image {
+  width: 150px;
+  height: auto;
+  border: 2px solid aqua;
+}
+
+/* Quote Section */
+
+.quote {
+  background-color: #e5e7eb;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.quote-container {
+  padding: 0 256px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-weight: bold;
+  text-align: end;
+  padding-right: 48px;
+}
+
+/* Call-to-action Section */
+
+.call-to-action {
+  padding: 128px 25%;
+}
+
+.call-to-action-container {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.call-to-action-container button {
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 8px 24px;
+  font-weight: bold;
+}
+
+.call-to-action-appeal {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 52px 0;
+  color: white;
 }
